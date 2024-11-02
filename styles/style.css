@@ -17,8 +17,7 @@ body {
 
 .header__links-list {
   display: flex;
-  gap: 14px;
-  list-style-position: inside;
+  gap: 30px;
   list-style-type: circle;
 }
 
@@ -27,13 +26,11 @@ body {
 }
 
 .header__link {
-  margin-left: -6px;
   letter-spacing: 0.01em;
   text-transform: lowercase;
 }
 
 .header__links-list-item:first-child .header__link {
-  margin-left: 0;
   letter-spacing: 0;
 }
 
@@ -134,9 +131,10 @@ body {
 }
 
 .bet-button {
-  border: 1px solid white;
+  border: 1px solid currentColor;
   padding: 12px 32px 11px 31px;
   color: white;
+  font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
