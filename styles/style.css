@@ -68,8 +68,7 @@ body {
   padding: 165px 50px 51px 50px;
   color: white;
   background-image: url(/images/cover.jpg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
   background-size: cover;
 }
 
